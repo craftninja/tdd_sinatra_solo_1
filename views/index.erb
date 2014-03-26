@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Task Buddy</title>
+  </head>
+  <body>
+    <h1>Welcome!</h1><br>
+    <a href="/add_task">Add a Task</a><br>
+    <% TASKS.each do |task| %>
+      <%= task %><br>
+    <% end %>
+  </body>
+</html>
